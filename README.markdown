@@ -15,7 +15,18 @@ two thing (more functionality is planned for future versions). It will:
 You can directly call the function using `:call MybatisToSql()` or you can map it to a key combination such as
 <Leader>M by adding `nmap <leader>m :call MybatisToSql()<CR>` to your `.vimrc` file.
 
-Future features will include:
+installation
+============
+
+You can use any VIM plugin manager to install this plugin. If you do not yet have a preferred plugin manager, I can suggest
+[pathogen.vim](https://github.com/tpope/vim-pathogen). If you have pathogen installed, simply run:
+
+    cd ~/.vim/bundle
+    git clone git://github.com/pieterhuibers/mybatis-to-sql
+
+development
+===========
+This is the first (simple) iterations of this plugin. Future features will include:
 
 	* Stripping xml tags
 	* Parsing and including `include` tags
